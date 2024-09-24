@@ -28,17 +28,15 @@ Use churn insights to tailor product offerings, improve service satisfaction, an
 
 
 
- An interactive PowerBI dashboard used to report and explore  trends can be found here 
- 
- 
- 
- [link].
+ An interactive PowerBI dashboard used to report and explore  trends can be found here  [Link](https://app.powerbi.com/groups/me/reports/1a6ca073-1141-4191-9088-a7961761eb41/7946fb82e1d7be4d2a86?experience=power-bi)
 
 ## Data Structure & Initial Checks
 The data consists of a single fact table "Bank Customer Data" with a total row count of 10,000 records.This was divided into 3 dimension tables creating a star schema. Description of each table is as follows:
 
 
-[photo]
+![image](https://github.com/user-attachments/assets/20f8c652-7705-4715-a739-faa3d5176ada)
+
+
 
 
 
@@ -51,64 +49,37 @@ The customer churn analysis reveals a churn rate of 20.37%, indicating a notable
 Below is the summary page from the PowerBI dashboard.
 
 
-[link]
+![image](https://github.com/user-attachments/assets/450d3284-304e-4796-9996-983868ab8557)
+
 
 
 
 ## Insights Deep Dive
-High-Risk Customer Segments Insights:
+**High-Risk Customer Segments Insights:**
 
-**Age Group 51-60:**
+1. **Age Group 51-60:**
 This group has the highest churn rate, with approximately 60% of customers churning. Over time, this segment shows increasing churn compared to other age groups, suggesting a possible dissatisfaction or service misalignment with their needs.
 
-**Customers with Credit Scores Below 400:**
+2. **Customers with Credit Scores Below 400:**
 Customers in the <400 credit score range have the highest churn rate, nearing 100%, even though they represent a smaller segment of the customer base. This shows a strong correlation between credit risk and churn likelihood, indicating the need for focused credit rehabilitation efforts.
 
-**Balance Group 100k-200k:**
-Customers with balances between 100k and 200k have a churn rate exceeding 50%, despite having significant assets. This trend indicates that higher balances do not equate to loyalty, and customers in this range may require more personalized engagement to prevent churn.
-
-
-[KPI photo]
+3. **Balance Group 100k-200k:**
+Customers with balances between 100k and 200k have a churn rate exceeding 50%, despite having significant assets. This trend indicates that higher balances do not equate to loyalty, and customers in this range may require more personalized engagement to prevent churn if needed.
 
 
 
+**Key Churn Drivers Insights:**
 
-Key Churn Drivers Insights:
-
-**Inactive Customers:**
-Inactive customers make up 48.49% of the total base and exhibit a higher churn rate compared to active customers. Over time, the inactivity trend strongly correlates with customer churn, highlighting engagement as a crucial retention factor.
-
-**Low Credit Score (<400):**
-Customers with credit scores below 400 show a near 100% churn rate, making credit risk a key driver. This segment, while small, consistently contributes to churn, emphasizing the need for credit management support.
-
-**Age Group 51-60:**
-With over 60% churn, the 51-60 age group is a critical driver. This segment has seen a steady rise in churn over time, indicating dissatisfaction that could stem from unmet service needs or expectations.
-
-[PHOTO]
+1. Inactive customers make up 48.49% of the total base and exhibit a higher churn rate compared to active customers. Over time, the inactivity trend strongly correlates with customer churn, highlighting engagement as a crucial retention factor.
 
 
 
+**Churn Probability Insights:**
+
+1. Inactive customers, representing 48.49% of the base, show a high likelihood of churn, with future predictions indicating continued disengagement if no proactive actions are taken. A targeted reactivation strategy could significantly lower this risk.
 
 
-Churn Probability Insights:
 
-1. The churn probability for age group 51-60 exceeds 60%, making them the most at-risk over time. Given their steady increase in churn, future predictions should focus on addressing their specific needs to reduce this trend.
-2. Customers with balances in the 100k-200k range have a churn probability of over 50%, indicating that high balances don’t ensure loyalty. Predictive models can prioritize this group for targeted retention efforts to avoid significant losses.
-
-3. Inactive customers, representing 48.49% of the base, show a high likelihood of churn, with future predictions indicating continued disengagement if no proactive actions are taken. A targeted reactivation strategy could significantly lower this risk.
-
-
-[CHARTS PHOTO ]
-
-Improve Retention Strategies:
-1. **Re-engage Inactive Customers:**
-With 48.49% of customers classified as inactive, focusing retention efforts here is crucial. Immediate outreach and personalized reactivation campaigns could significantly reduce churn in this segment.
-
-2. **Target Customers in Age Group 51-60:**
-This age group has a 60% churn rate, and efforts over the next 6 months should focus on tailored financial products and improved communication. Addressing their needs could reverse the increasing churn trend in this demographic.
-
-3. **Focus on Customers with Low Credit Scores (<400):**
-Customers with <400 credit scores have a near 100% churn rate, so implementing financial coaching and credit-building programs within the next quarter can improve retention. This intervention could stabilize this high-risk segment.
 ## Recommendations:
 Based on the insights and findings above, I would recommend to consider the following:
 
